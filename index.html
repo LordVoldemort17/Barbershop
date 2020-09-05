@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Барбершоп "Бородинский"</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="main-header">
+		<div class="container clearfix">
+			<nav class="main-navigation">
+				<ul>
+					<li><a href="#">главная</a></li>
+					<li><a href="#">информация</a></li>
+					<li><a href="#">новости</a></li>
+					<li><a href="price_list.html">прайс-лист</a></li>
+					<li><a href="#">магазин</a></li>
+					<li><a href="#">контакты</a></li>
+				</ul>
+			</nav>
+			<div class="user-block">
+				<a href="#" class="login">Вход</a>
+			</div>
+		</div>
+	</header>
+
+	<main class="container clearfix">
+		<div class="index-logo">
+			<img src="img/logo.png" alt="Барбершоп Бородинский">
+		</div>
+		<section class="features clearfix">
+			<div class="features-item">
+				<b class="features-name">Быстро</b>
+				<p>мы делаем свою работу быстро! два часа пролетят 
+				незаменто и вы - счастливый обладатель стильной стрижки - минутки!</p>
+			</div>
+			<div class="features-item">
+				<b class="features-name">Круто</b>
+				<p>забудьте, как вы стриглись раньше. мы сделаем из вас зведу футбола или кино!
+				во всяком случае внешне.</p>
+			</div>
+			<div class="features-item">
+				<b class="features-name">Дорого</b>
+				<p>наши мастера - профессионалы своего дела и не могут стричь дешево. 
+				к тому же разве цена не дат определенный статус?</p>
+			</div>
+		</section>
+
+			<div class="index-content clearfix">
+				<div class="index-content-left">
+					<h2 class="index-content-title">новости</h2>
+					<ul class="news-preview">
+						<li><p>Нам наконец завезли ягермайстер! 
+						теперь вы<br> можете пропустить стаканчик во время стрижки</p>
+						<time datetime="2020-02-05">5 февраля</time>
+						</li>
+						<li><p>в нашей команде пополнение, борис "бритва"<br> стригунец, 
+						обладатель множества титулов и<br> наград пополнил наши стройные ряды</p>
+						<time datetime="2020-02-25">25 февраля</time>
+						</li>
+					</ul>
+					<a href="#" class="btn">Все новости</a>
+				</div>
+				
+		<div class="index-content-right">
+					<h2 class="index-content-title">фотогалерея</h2>
+				<div class="gallery">
+					<figure class="gallery-content">
+						<img src="img/photo_1.png" alt="" width="286" height="164">
+					</figure>
+		<button class="btn gallery-prev" type="button">Назад</button>
+		<button class="btn gallery-next" type="button">Вперед</button>
+				</div>
+		</div>
+			</div>
+
+			<div class="index-content clearfix">
+				<div class="index-content-left">
+					<h2 class="index-content-title">контактная информация</h2>
+					<p>
+						Барбершоп "Бородинский"<br>
+						Адрес: г.Санкт-Петербург, б.конюшенная, д. 19/8<br>
+						Тел.: +7 (495) 666-02-66
+					</p>
+					<p>
+						Время работы:<br>
+						пн - пт: с 10:00 до 20:00<br>
+						сб - вс: с 10:00 до 19:00
+					</p>
+				<a class="btn js-open-map" href="#">как проехать</a>
+				<a class="btn" href="#">обратная связь</a>
+				</div>
+
+				<div class="index-content-right">
+					<h2 class="index-content-title">записаться</h2>
+					<p>укажите желаемое время и дату и мы свяжемся с вами для подтверждения брони</p>
+					<form class="appointment-form" action="" method="post">
+						<input type="text" name="date" value="" placeholder="Дата">
+						<input type="text" name="time" value="" placeholder="Время">
+						<input type="text" name="name" value="" placeholder="Ваше имя">
+						<input type="tel" name="phone" value="" placeholder="Телефон">
+					</form>
+					<button class="btn" type="submit">отправить</button>
+				</div>
+			</div>
+	</main>
+
+		<footer class="main-footer">
+			<div class="container clearfix">
+				<section class="footer-contacts">
+					<p>
+						Барбершоп "Бородинский"<br>
+						Адрес: г.Санкт-Петербург, б.конюшенная, д. 19/8<br>
+						<a href="#">как нас найти?</a><br>
+						Тел.: +7 (495) 666-02-66
+					</p>
+				</section>
+				<section class="footer-social">
+					<p>давайте дружить!</p>
+					<a class="social-btn social-btn-vk"   href="#">Вконтакте</a>
+					<a class="social-btn social-btn-fb"   href="#">Фэйсбук</a>
+					<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+				</section>
+				<section class="footer-coyright">
+					<p>разработано</p>
+					<a class="btn" href="#">MuslimBark_Web</a>
+				</section>
+			</div>
+		</footer>
+
+<div class="modal-content">
+	<button class="modal-content-close" tye="button" title="Закрыть">Закрыть</button>
+		<h2 class="modal-content-title">Личный кабинет</h2>
+			<p>Введите пожалуйста свой логин и пароль</p>
+			<form action="" class="login-form">
+				<input class="icon-user" type="text" name="login" placeholder="Логин">
+				<input class="icon-password" type="password" name="password" placeholder="Пароль">
+			<label class="login-checkbox">
+		<input type="checkbox" name="remember">
+	<span class="checkbox-indicator"></span>
+					Запомнить меня
+			</label>
+		<a href="#" class="restore">Я забыл пароль!</a>
+	<button class="btn" type="submit">Войти</button>
+				</form>
+</div>
+	<div class="modal-content-map">
+		<button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.0235762234374!2d71.37415831518454!3d51.14491634496313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa5acf2a5ebcca882!2z0JbQmiDQmtC10YDQtdC80LXRgg!5e0!3m2!1sru!2skz!4v1582654885534!5m2!1sru!2skz" width="766" height="561" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	</div>
+<div class="modal-overlay"></div>
+
+<script>
+	let link = document.querySelector(".login");
+	let fone = document.querySelector(".modal-overlay");
+	let popup = document.querySelector(".modal-content");
+	let close = document.querySelector(".modal-content-close"); 
+	let form = popup.querySelector("form");
+	let login = popup.querySelector("[name=login]");
+	let pass = popup.querySelector("[name=password]");
+	let storage = localStorage.getItem("login");	
+	
+	let mapOpen = document.querySelector(".js-open-map");
+	let mapPopup = document.querySelector(".modal-content-map");
+	let mapClose = mapPopup.querySelector(".modal-content-close");
+
+
+	link.addEventListener("click", function(event) {
+		event.preventDefault();
+		popup.classList.add("modal-content-show");
+		fone.classList.add("modal-content-show");
+		if (storage) {
+			login.value = storage;
+			pass.focus();
+		} else {
+			login.focus();
+		}
+
+	});
+			
+	close.addEventListener("click", function(event) {
+		event.preventDefault();
+		popup.classList.remove("modal-content-show");
+		popup.classList.remove("modal-error");
+	});
+
+	form.addEventListener("submit", function(event) {
+		if (!login.value || !pass.value) {
+		event.preventDefault();
+		popup.classList.add("modal-error");
+		// alert("Пожалуйста, введите ваши данные!");
+	}	else {
+		localStorage("login", login.value)
+	}
+	});
+
+	window.addEventListener("keydown", function(event) {
+		if (event.keyCode === 27) {
+			if (popup.classList.contains("modal-content-show"))
+				popup.classList.remove("modal-content-show");
+		}
+	});
+// --------
+	mapOpen.addEventListener("click", function(event) {
+		event.preventDefault();
+		mapPopup.classList.add("modal-content-show");
+		console.log("проверка");
+	});
+
+	mapClose.addEventListener("click", function(event) {
+		event.preventDefault();
+		mapPopup.classList.remove("modal-content-show");
+		console.log("проверка2");
+	});
+
+	window.addEventListener("keydown", function(event) {
+		if (event.keyCode === 27) {
+			if (mapPopup.classList.contains("modal-content-show")) {
+				mapPopup.classList.remove("modal-content-show");
+			}
+		}
+	});
+
+</script>
+	</body>
+		</html>
